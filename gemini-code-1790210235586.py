@@ -172,7 +172,7 @@ async def check_updates_job(context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     """Start the Telegram Bot."""
-    if BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN_HERE":
+    if BOT_TOKEN == "8773179637:AAGdSVywnjLX1dQ94msbGRRZtA5kwgdY7po":
         print("Error: Please specify your TELEGRAM_BOT_TOKEN in the script.")
         return
 
@@ -197,3 +197,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    python-telegram-bot
+requests
+worker: python main.py
